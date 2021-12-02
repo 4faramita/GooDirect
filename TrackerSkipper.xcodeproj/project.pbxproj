@@ -13,12 +13,10 @@
 		B4A60BE52755056D00CF5515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BE32755056D00CF5515 /* Main.storyboard */; };
 		B4A60BEE2755056D00CF5515 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A60BED2755056D00CF5515 /* AppDelegate.swift */; };
 		B4A60BF12755056D00CF5515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BEF2755056D00CF5515 /* Main.storyboard */; };
-		B4A60BF82755056D00CF5515 /* GooDirect Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B4A60BF72755056D00CF5515 /* GooDirect Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B4A60C022755056D00CF5515 /* GooDirect Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B4A60C012755056D00CF5515 /* GooDirect Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B4A60BF82755056D00CF5515 /* TrackerSkipper Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B4A60BF72755056D00CF5515 /* TrackerSkipper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B4A60C022755056D00CF5515 /* TrackerSkipper Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B4A60C012755056D00CF5515 /* TrackerSkipper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B4A60C082755056D00CF5515 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BC32755056C00CF5515 /* Main.html */; };
 		B4A60C092755056D00CF5515 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BC32755056C00CF5515 /* Main.html */; };
-		B4A60C0A2755056D00CF5515 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BC52755056C00CF5515 /* Icon.png */; };
-		B4A60C0B2755056D00CF5515 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BC52755056C00CF5515 /* Icon.png */; };
 		B4A60C0C2755056D00CF5515 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BC62755056C00CF5515 /* Style.css */; };
 		B4A60C0D2755056D00CF5515 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BC62755056C00CF5515 /* Style.css */; };
 		B4A60C0E2755056D00CF5515 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BC72755056C00CF5515 /* Script.js */; };
@@ -35,8 +33,6 @@
 		B4A60C192755056D00CF5515 /* images in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BCE2755056D00CF5515 /* images */; };
 		B4A60C1A2755056D00CF5515 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BCF2755056D00CF5515 /* manifest.json */; };
 		B4A60C1B2755056D00CF5515 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BCF2755056D00CF5515 /* manifest.json */; };
-		B4A60C1C2755056D00CF5515 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BD02755056D00CF5515 /* background.js */; };
-		B4A60C1D2755056D00CF5515 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BD02755056D00CF5515 /* background.js */; };
 		B4A60C1E2755056D00CF5515 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BD12755056D00CF5515 /* content.js */; };
 		B4A60C1F2755056D00CF5515 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BD12755056D00CF5515 /* content.js */; };
 		B4A60C202755056D00CF5515 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BD22755056D00CF5515 /* popup.html */; };
@@ -45,6 +41,8 @@
 		B4A60C232755056D00CF5515 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BD32755056D00CF5515 /* popup.css */; };
 		B4A60C242755056D00CF5515 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BD42755056D00CF5515 /* popup.js */; };
 		B4A60C252755056D00CF5515 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BD42755056D00CF5515 /* popup.js */; };
+		B4F847F2275885B200F9D751 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F847F1275885B200F9D751 /* Icon.png */; };
+		B4F847F3275885B200F9D751 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F847F1275885B200F9D751 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +69,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				B4A60BF82755056D00CF5515 /* GooDirect Extension.appex in Embed App Extensions */,
+				B4A60BF82755056D00CF5515 /* TrackerSkipper Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,7 +80,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				B4A60C022755056D00CF5515 /* GooDirect Extension.appex in Embed App Extensions */,
+				B4A60C022755056D00CF5515 /* TrackerSkipper Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,7 +89,6 @@
 
 /* Begin PBXFileReference section */
 		B4A60BC42755056C00CF5515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		B4A60BC52755056C00CF5515 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B4A60BC62755056C00CF5515 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		B4A60BC72755056C00CF5515 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		B4A60BC82755056C00CF5515 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,26 +97,26 @@
 		B4A60BCD2755056D00CF5515 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		B4A60BCE2755056D00CF5515 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		B4A60BCF2755056D00CF5515 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		B4A60BD02755056D00CF5515 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		B4A60BD12755056D00CF5515 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		B4A60BD22755056D00CF5515 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		B4A60BD32755056D00CF5515 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		B4A60BD42755056D00CF5515 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
-		B4A60BD92755056D00CF5515 /* GooDirect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooDirect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A60BD92755056D00CF5515 /* TrackerSkipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackerSkipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A60BDC2755056D00CF5515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A60BDE2755056D00CF5515 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B4A60BE12755056D00CF5515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4A60BE42755056D00CF5515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4A60BE62755056D00CF5515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4A60BEB2755056D00CF5515 /* GooDirect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooDirect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A60BEB2755056D00CF5515 /* TrackerSkipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackerSkipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A60BED2755056D00CF5515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A60BF02755056D00CF5515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4A60BF22755056D00CF5515 /* GooDirect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GooDirect.entitlements; sourceTree = "<group>"; };
-		B4A60BF72755056D00CF5515 /* GooDirect Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GooDirect Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A60BF72755056D00CF5515 /* TrackerSkipper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TrackerSkipper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A60BFC2755056D00CF5515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4A60C012755056D00CF5515 /* GooDirect Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GooDirect Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A60C012755056D00CF5515 /* TrackerSkipper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TrackerSkipper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A60C062755056D00CF5515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4A60C072755056D00CF5515 /* GooDirect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GooDirect.entitlements; sourceTree = "<group>"; };
+		B4F847F1275885B200F9D751 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,7 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				B4A60BC32755056C00CF5515 /* Main.html */,
-				B4A60BC52755056C00CF5515 /* Icon.png */,
+				B4F847F1275885B200F9D751 /* Icon.png */,
 				B4A60BC62755056C00CF5515 /* Style.css */,
 				B4A60BC72755056C00CF5515 /* Script.js */,
 			);
@@ -203,7 +200,6 @@
 				B4A60BCD2755056D00CF5515 /* _locales */,
 				B4A60BCE2755056D00CF5515 /* images */,
 				B4A60BCF2755056D00CF5515 /* manifest.json */,
-				B4A60BD02755056D00CF5515 /* background.js */,
 				B4A60BD12755056D00CF5515 /* content.js */,
 				B4A60BD22755056D00CF5515 /* popup.html */,
 				B4A60BD32755056D00CF5515 /* popup.css */,
@@ -215,10 +211,10 @@
 		B4A60BDA2755056D00CF5515 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4A60BD92755056D00CF5515 /* GooDirect.app */,
-				B4A60BEB2755056D00CF5515 /* GooDirect.app */,
-				B4A60BF72755056D00CF5515 /* GooDirect Extension.appex */,
-				B4A60C012755056D00CF5515 /* GooDirect Extension.appex */,
+				B4A60BD92755056D00CF5515 /* TrackerSkipper.app */,
+				B4A60BEB2755056D00CF5515 /* TrackerSkipper.app */,
+				B4A60BF72755056D00CF5515 /* TrackerSkipper Extension.appex */,
+				B4A60C012755056D00CF5515 /* TrackerSkipper Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,9 +261,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B4A60BD82755056D00CF5515 /* GooDirect (iOS) */ = {
+		B4A60BD82755056D00CF5515 /* TrackerSkipper (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4A60C2C2755056D00CF5515 /* Build configuration list for PBXNativeTarget "GooDirect (iOS)" */;
+			buildConfigurationList = B4A60C2C2755056D00CF5515 /* Build configuration list for PBXNativeTarget "TrackerSkipper (iOS)" */;
 			buildPhases = (
 				B4A60BD52755056D00CF5515 /* Sources */,
 				B4A60BD62755056D00CF5515 /* Frameworks */,
@@ -279,14 +275,14 @@
 			dependencies = (
 				B4A60BFA2755056D00CF5515 /* PBXTargetDependency */,
 			);
-			name = "GooDirect (iOS)";
+			name = "TrackerSkipper (iOS)";
 			productName = "GooDirect (iOS)";
-			productReference = B4A60BD92755056D00CF5515 /* GooDirect.app */;
+			productReference = B4A60BD92755056D00CF5515 /* TrackerSkipper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B4A60BEA2755056D00CF5515 /* GooDirect (macOS) */ = {
+		B4A60BEA2755056D00CF5515 /* TrackerSkipper (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4A60C332755056D00CF5515 /* Build configuration list for PBXNativeTarget "GooDirect (macOS)" */;
+			buildConfigurationList = B4A60C332755056D00CF5515 /* Build configuration list for PBXNativeTarget "TrackerSkipper (macOS)" */;
 			buildPhases = (
 				B4A60BE72755056D00CF5515 /* Sources */,
 				B4A60BE82755056D00CF5515 /* Frameworks */,
@@ -298,14 +294,14 @@
 			dependencies = (
 				B4A60C042755056D00CF5515 /* PBXTargetDependency */,
 			);
-			name = "GooDirect (macOS)";
+			name = "TrackerSkipper (macOS)";
 			productName = "GooDirect (macOS)";
-			productReference = B4A60BEB2755056D00CF5515 /* GooDirect.app */;
+			productReference = B4A60BEB2755056D00CF5515 /* TrackerSkipper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B4A60BF62755056D00CF5515 /* GooDirect Extension (iOS) */ = {
+		B4A60BF62755056D00CF5515 /* TrackerSkipper Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4A60C282755056D00CF5515 /* Build configuration list for PBXNativeTarget "GooDirect Extension (iOS)" */;
+			buildConfigurationList = B4A60C282755056D00CF5515 /* Build configuration list for PBXNativeTarget "TrackerSkipper Extension (iOS)" */;
 			buildPhases = (
 				B4A60BF32755056D00CF5515 /* Sources */,
 				B4A60BF42755056D00CF5515 /* Frameworks */,
@@ -315,14 +311,14 @@
 			);
 			dependencies = (
 			);
-			name = "GooDirect Extension (iOS)";
+			name = "TrackerSkipper Extension (iOS)";
 			productName = "GooDirect Extension (iOS)";
-			productReference = B4A60BF72755056D00CF5515 /* GooDirect Extension.appex */;
+			productReference = B4A60BF72755056D00CF5515 /* TrackerSkipper Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		B4A60C002755056D00CF5515 /* GooDirect Extension (macOS) */ = {
+		B4A60C002755056D00CF5515 /* TrackerSkipper Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4A60C2F2755056D00CF5515 /* Build configuration list for PBXNativeTarget "GooDirect Extension (macOS)" */;
+			buildConfigurationList = B4A60C2F2755056D00CF5515 /* Build configuration list for PBXNativeTarget "TrackerSkipper Extension (macOS)" */;
 			buildPhases = (
 				B4A60BFD2755056D00CF5515 /* Sources */,
 				B4A60BFE2755056D00CF5515 /* Frameworks */,
@@ -332,9 +328,9 @@
 			);
 			dependencies = (
 			);
-			name = "GooDirect Extension (macOS)";
+			name = "TrackerSkipper Extension (macOS)";
 			productName = "GooDirect Extension (macOS)";
-			productReference = B4A60C012755056D00CF5515 /* GooDirect Extension.appex */;
+			productReference = B4A60C012755056D00CF5515 /* TrackerSkipper Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -361,7 +357,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B4A60BC02755056C00CF5515 /* Build configuration list for PBXProject "GooDirect" */;
+			buildConfigurationList = B4A60BC02755056C00CF5515 /* Build configuration list for PBXProject "TrackerSkipper" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -374,10 +370,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4A60BD82755056D00CF5515 /* GooDirect (iOS) */,
-				B4A60BEA2755056D00CF5515 /* GooDirect (macOS) */,
-				B4A60BF62755056D00CF5515 /* GooDirect Extension (iOS) */,
-				B4A60C002755056D00CF5515 /* GooDirect Extension (macOS) */,
+				B4A60BD82755056D00CF5515 /* TrackerSkipper (iOS) */,
+				B4A60BEA2755056D00CF5515 /* TrackerSkipper (macOS) */,
+				B4A60BF62755056D00CF5515 /* TrackerSkipper Extension (iOS) */,
+				B4A60C002755056D00CF5515 /* TrackerSkipper Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -387,12 +383,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4A60C0A2755056D00CF5515 /* Icon.png in Resources */,
 				B4A60BE22755056D00CF5515 /* LaunchScreen.storyboard in Resources */,
 				B4A60C082755056D00CF5515 /* Main.html in Resources */,
 				B4A60C0E2755056D00CF5515 /* Script.js in Resources */,
 				B4A60C122755056D00CF5515 /* Assets.xcassets in Resources */,
 				B4A60BE52755056D00CF5515 /* Main.storyboard in Resources */,
+				B4F847F2275885B200F9D751 /* Icon.png in Resources */,
 				B4A60C0C2755056D00CF5515 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,7 +397,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4A60C0B2755056D00CF5515 /* Icon.png in Resources */,
+				B4F847F3275885B200F9D751 /* Icon.png in Resources */,
 				B4A60C0D2755056D00CF5515 /* Style.css in Resources */,
 				B4A60BF12755056D00CF5515 /* Main.storyboard in Resources */,
 				B4A60C0F2755056D00CF5515 /* Script.js in Resources */,
@@ -414,7 +410,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4A60C1C2755056D00CF5515 /* background.js in Resources */,
 				B4A60C222755056D00CF5515 /* popup.css in Resources */,
 				B4A60C202755056D00CF5515 /* popup.html in Resources */,
 				B4A60C182755056D00CF5515 /* images in Resources */,
@@ -429,7 +424,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4A60C1D2755056D00CF5515 /* background.js in Resources */,
 				B4A60C232755056D00CF5515 /* popup.css in Resources */,
 				B4A60C212755056D00CF5515 /* popup.html in Resources */,
 				B4A60C192755056D00CF5515 /* images in Resources */,
@@ -483,12 +477,12 @@
 /* Begin PBXTargetDependency section */
 		B4A60BFA2755056D00CF5515 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4A60BF62755056D00CF5515 /* GooDirect Extension (iOS) */;
+			target = B4A60BF62755056D00CF5515 /* TrackerSkipper Extension (iOS) */;
 			targetProxy = B4A60BF92755056D00CF5515 /* PBXContainerItemProxy */;
 		};
 		B4A60C042755056D00CF5515 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4A60C002755056D00CF5515 /* GooDirect Extension (macOS) */;
+			target = B4A60C002755056D00CF5515 /* TrackerSkipper Extension (macOS) */;
 			targetProxy = B4A60C032755056D00CF5515 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -648,7 +642,7 @@
 				DEVELOPMENT_TEAM = JUQ4EUY679;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "GooDirect Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "TrackerSkipper Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -661,8 +655,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.GooDirect.Extension;
-				PRODUCT_NAME = "GooDirect Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.TrackerSkipper.Extension;
+				PRODUCT_NAME = "TrackerSkipper Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -679,7 +673,7 @@
 				DEVELOPMENT_TEAM = JUQ4EUY679;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "GooDirect Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "TrackerSkipper Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -692,8 +686,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.GooDirect.Extension;
-				PRODUCT_NAME = "GooDirect Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.TrackerSkipper.Extension;
+				PRODUCT_NAME = "TrackerSkipper Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -714,7 +708,7 @@
 				DEVELOPMENT_TEAM = JUQ4EUY679;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = GooDirect;
+				INFOPLIST_KEY_CFBundleDisplayName = TrackerSkipper;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -732,8 +726,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.GooDirect;
-				PRODUCT_NAME = GooDirect;
+				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.TrackerSkipper;
+				PRODUCT_NAME = TrackerSkipper;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -752,7 +746,7 @@
 				DEVELOPMENT_TEAM = JUQ4EUY679;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = GooDirect;
+				INFOPLIST_KEY_CFBundleDisplayName = TrackerSkipper;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -770,8 +764,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.GooDirect;
-				PRODUCT_NAME = GooDirect;
+				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.TrackerSkipper;
+				PRODUCT_NAME = TrackerSkipper;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -783,14 +777,14 @@
 		B4A60C302755056D00CF5515 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/GooDirect.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/TrackerSkipper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JUQ4EUY679;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "GooDirect Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "TrackerSkipper Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -803,8 +797,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.GooDirect.Extension;
-				PRODUCT_NAME = "GooDirect Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.TrackerSkipper.Extension;
+				PRODUCT_NAME = "TrackerSkipper Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -815,14 +809,14 @@
 		B4A60C312755056D00CF5515 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/GooDirect.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/TrackerSkipper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JUQ4EUY679;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "GooDirect Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "TrackerSkipper Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -835,8 +829,8 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.GooDirect.Extension;
-				PRODUCT_NAME = "GooDirect Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.TrackerSkipper.Extension;
+				PRODUCT_NAME = "TrackerSkipper Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -850,13 +844,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/GooDirect.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/TrackerSkipper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JUQ4EUY679;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = GooDirect;
+				INFOPLIST_KEY_CFBundleDisplayName = TrackerSkipper;
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -871,8 +865,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.GooDirect;
-				PRODUCT_NAME = GooDirect;
+				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.TrackerSkipper;
+				PRODUCT_NAME = TrackerSkipper;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -885,13 +879,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/GooDirect.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/TrackerSkipper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JUQ4EUY679;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = GooDirect;
+				INFOPLIST_KEY_CFBundleDisplayName = TrackerSkipper;
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -906,8 +900,8 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.GooDirect;
-				PRODUCT_NAME = GooDirect;
+				PRODUCT_BUNDLE_IDENTIFIER = us.jihe.TrackerSkipper;
+				PRODUCT_NAME = TrackerSkipper;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -917,7 +911,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B4A60BC02755056C00CF5515 /* Build configuration list for PBXProject "GooDirect" */ = {
+		B4A60BC02755056C00CF5515 /* Build configuration list for PBXProject "TrackerSkipper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4A60C262755056D00CF5515 /* Debug */,
@@ -926,7 +920,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4A60C282755056D00CF5515 /* Build configuration list for PBXNativeTarget "GooDirect Extension (iOS)" */ = {
+		B4A60C282755056D00CF5515 /* Build configuration list for PBXNativeTarget "TrackerSkipper Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4A60C292755056D00CF5515 /* Debug */,
@@ -935,7 +929,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4A60C2C2755056D00CF5515 /* Build configuration list for PBXNativeTarget "GooDirect (iOS)" */ = {
+		B4A60C2C2755056D00CF5515 /* Build configuration list for PBXNativeTarget "TrackerSkipper (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4A60C2D2755056D00CF5515 /* Debug */,
@@ -944,7 +938,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4A60C2F2755056D00CF5515 /* Build configuration list for PBXNativeTarget "GooDirect Extension (macOS)" */ = {
+		B4A60C2F2755056D00CF5515 /* Build configuration list for PBXNativeTarget "TrackerSkipper Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4A60C302755056D00CF5515 /* Debug */,
@@ -953,7 +947,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4A60C332755056D00CF5515 /* Build configuration list for PBXNativeTarget "GooDirect (macOS)" */ = {
+		B4A60C332755056D00CF5515 /* Build configuration list for PBXNativeTarget "TrackerSkipper (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4A60C342755056D00CF5515 /* Debug */,
