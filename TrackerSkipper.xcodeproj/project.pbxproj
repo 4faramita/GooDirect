@@ -41,8 +41,14 @@
 		B4A60C232755056D00CF5515 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BD32755056D00CF5515 /* popup.css */; };
 		B4A60C242755056D00CF5515 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BD42755056D00CF5515 /* popup.js */; };
 		B4A60C252755056D00CF5515 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = B4A60BD42755056D00CF5515 /* popup.js */; };
-		B4F847F2275885B200F9D751 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F847F1275885B200F9D751 /* Icon.png */; };
-		B4F847F3275885B200F9D751 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F847F1275885B200F9D751 /* Icon.png */; };
+		B4F847F82758917700F9D751 /* Tutorial-iOS.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B4F847F72758917700F9D751 /* Tutorial-iOS.mp4 */; };
+		B4F847F92758917700F9D751 /* Tutorial-iOS.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B4F847F72758917700F9D751 /* Tutorial-iOS.mp4 */; };
+		B4F847FC27589B9900F9D751 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F847FB27589B9900F9D751 /* Icon.png */; };
+		B4F847FD27589B9900F9D751 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F847FB27589B9900F9D751 /* Icon.png */; };
+		B4F848002758A21C00F9D751 /* Mac-Tutorial-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F847FE2758A21C00F9D751 /* Mac-Tutorial-1.png */; };
+		B4F848012758A21C00F9D751 /* Mac-Tutorial-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F847FE2758A21C00F9D751 /* Mac-Tutorial-1.png */; };
+		B4F848022758A21C00F9D751 /* Mac-Tutorial-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F847FF2758A21C00F9D751 /* Mac-Tutorial-2.png */; };
+		B4F848032758A21C00F9D751 /* Mac-Tutorial-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F847FF2758A21C00F9D751 /* Mac-Tutorial-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,13 +116,16 @@
 		B4A60BEB2755056D00CF5515 /* TrackerSkipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackerSkipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A60BED2755056D00CF5515 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A60BF02755056D00CF5515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B4A60BF22755056D00CF5515 /* GooDirect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GooDirect.entitlements; sourceTree = "<group>"; };
+		B4A60BF22755056D00CF5515 /* TrackerSkipper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrackerSkipper.entitlements; sourceTree = "<group>"; };
 		B4A60BF72755056D00CF5515 /* TrackerSkipper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TrackerSkipper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A60BFC2755056D00CF5515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4A60C012755056D00CF5515 /* TrackerSkipper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TrackerSkipper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A60C062755056D00CF5515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4A60C072755056D00CF5515 /* GooDirect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GooDirect.entitlements; sourceTree = "<group>"; };
-		B4F847F1275885B200F9D751 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B4A60C072755056D00CF5515 /* TrackerSkipper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrackerSkipper.entitlements; sourceTree = "<group>"; };
+		B4F847F72758917700F9D751 /* Tutorial-iOS.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tutorial-iOS.mp4"; sourceTree = "<group>"; };
+		B4F847FB27589B9900F9D751 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B4F847FE2758A21C00F9D751 /* Mac-Tutorial-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mac-Tutorial-1.png"; sourceTree = "<group>"; };
+		B4F847FF2758A21C00F9D751 /* Mac-Tutorial-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mac-Tutorial-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +187,10 @@
 			isa = PBXGroup;
 			children = (
 				B4A60BC32755056C00CF5515 /* Main.html */,
-				B4F847F1275885B200F9D751 /* Icon.png */,
+				B4F847F72758917700F9D751 /* Tutorial-iOS.mp4 */,
+				B4F847FE2758A21C00F9D751 /* Mac-Tutorial-1.png */,
+				B4F847FF2758A21C00F9D751 /* Mac-Tutorial-2.png */,
+				B4F847FB27589B9900F9D751 /* Icon.png */,
 				B4A60BC62755056C00CF5515 /* Style.css */,
 				B4A60BC72755056C00CF5515 /* Script.js */,
 			);
@@ -236,7 +248,7 @@
 			children = (
 				B4A60BED2755056D00CF5515 /* AppDelegate.swift */,
 				B4A60BEF2755056D00CF5515 /* Main.storyboard */,
-				B4A60BF22755056D00CF5515 /* GooDirect.entitlements */,
+				B4A60BF22755056D00CF5515 /* TrackerSkipper.entitlements */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
@@ -253,7 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				B4A60C062755056D00CF5515 /* Info.plist */,
-				B4A60C072755056D00CF5515 /* GooDirect.entitlements */,
+				B4A60C072755056D00CF5515 /* TrackerSkipper.entitlements */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
@@ -385,11 +397,14 @@
 			files = (
 				B4A60BE22755056D00CF5515 /* LaunchScreen.storyboard in Resources */,
 				B4A60C082755056D00CF5515 /* Main.html in Resources */,
+				B4F848022758A21C00F9D751 /* Mac-Tutorial-2.png in Resources */,
 				B4A60C0E2755056D00CF5515 /* Script.js in Resources */,
+				B4F848002758A21C00F9D751 /* Mac-Tutorial-1.png in Resources */,
 				B4A60C122755056D00CF5515 /* Assets.xcassets in Resources */,
+				B4F847FC27589B9900F9D751 /* Icon.png in Resources */,
 				B4A60BE52755056D00CF5515 /* Main.storyboard in Resources */,
-				B4F847F2275885B200F9D751 /* Icon.png in Resources */,
 				B4A60C0C2755056D00CF5515 /* Style.css in Resources */,
+				B4F847F82758917700F9D751 /* Tutorial-iOS.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,11 +412,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4F847F3275885B200F9D751 /* Icon.png in Resources */,
+				B4F847F92758917700F9D751 /* Tutorial-iOS.mp4 in Resources */,
 				B4A60C0D2755056D00CF5515 /* Style.css in Resources */,
+				B4F848032758A21C00F9D751 /* Mac-Tutorial-2.png in Resources */,
 				B4A60BF12755056D00CF5515 /* Main.storyboard in Resources */,
 				B4A60C0F2755056D00CF5515 /* Script.js in Resources */,
 				B4A60C132755056D00CF5515 /* Assets.xcassets in Resources */,
+				B4F848012758A21C00F9D751 /* Mac-Tutorial-1.png in Resources */,
+				B4F847FD27589B9900F9D751 /* Icon.png in Resources */,
 				B4A60C092755056D00CF5515 /* Main.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
